@@ -1,0 +1,94 @@
+.encabezado {
+    background-color: #C0D0FF;
+    text-align: center;
+    width: 100%;
+    padding: 40px 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 0;
+
+}
+
+main {
+    background: url(/imagenes/encriptador.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+.titulomensaje,
+.tituloresultado {
+    color: #FFFFFF;
+}
+
+.ingresotexto,
+.resultado {
+    font-size: 20px;
+    margin: 0 0 10px;
+    width: 30%;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    
+}
+
+.cajaingreso, .cajaresultado{
+    float:left;
+    vertical-align: top; 
+    margin-right: 20px; 
+}
+/*.button {
+    position:relative;
+    top: 30% ;
+    left: 40%;
+}*/
+
+.encriptar,
+.desencriptar,
+.copiar {
+    text-align: center;
+    display:block;
+    position:relative;
+    top: 15% ;
+    left: 40%;
+    width: 15%;
+    padding: 15px 0;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+
+}
+
+
+.encriptar:hover,
+.desencriptar:hover,
+.copiar:hover {
+    background: rgb(149, 151, 252);
+    transform: scale(1.2);
+}
+
+
+
+
+footer {
+    width: 100%;
+    text-align: center;
+    background: #132E82;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.logofooter {
+    padding: 10px
+}
