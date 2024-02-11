@@ -15,8 +15,8 @@
 }
 
 main {
-    background: url(/imagenes/encriptador.jpg);
-    height: 100vh;
+    background: url(imagenes/encriptador.jpg);
+    height: 50hv;
     background-size: cover;
 }
 
@@ -40,6 +40,7 @@ main {
     float:left;
     vertical-align: top; 
     margin-right: 20px; 
+    
 }
 /*.button {
     position:relative;
@@ -76,9 +77,6 @@ main {
     background: rgb(149, 151, 252);
     transform: scale(1.2);
 }
-
-
-
 
 footer {
     width: 100%;
