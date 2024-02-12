@@ -1,3 +1,10 @@
+.raleway-uniquifier> {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .encabezado {
     background-color: rgba(192, 208, 255, 0.5);
     text-align: center;
