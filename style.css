@@ -16,32 +16,74 @@
 
 main {
     background: url(imagenes/encriptador.jpg);
-    height: 50hv;
+    height: 100vh;
     background-size: cover;
 }
 
 .titulomensaje,
 .tituloresultado {
     color: #FFFFFF;
+    text-wrap: wrap;
+    margin: 10px 0;
 }
 
-.ingresotexto,
+.contenedor {
+    display: flex;
+    width: 100%;
+}
+
+.texto,
 .resultado {
+    flex-grow: 1;
     font-size: 20px;
     margin: 0 0 10px;
-    width: 30%;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    
+    width: 40%;
 }
 
-.cajaingreso, .cajaresultado{
-    float:left;
-    vertical-align: top; 
-    margin-right: 20px; 
-    
+.cajaingreso,
+.cajaresultado {
+    flex-grow: 1;
+    vertical-align: top;
+    margin: 0 20px;
+    width: 40%;
+
 }
+
+.cajaingreso {
+    margin-right: 5%;
+}
+
+.cajaresultado {
+    margin-left: 5%;
+}
+
+.seccionalerta {
+    display: flex;
+    font-size: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-color: #C0D0FF;
+    text-align: center;
+    color: black;
+    font-style: italic;
+    border: 5px solid darkblue;
+    width: 300px;
+    flex-direction: row;
+    padding: 10px 10px;
+    margin: 0 10px;
+
+}
+
+.imgalerta {
+    width: 10%;
+}
+
+.advertencia {
+    margin: 10px 10px 10px 20px;
+    /* arriba derecha abajo izquierda*/
+    font-size: small;
+}
+
 /*.button {
     position:relative;
     top: 30% ;
@@ -52,9 +94,9 @@ main {
 .desencriptar,
 .copiar {
     text-align: center;
-    display:block;
-    position:relative;
-    top: 15% ;
+    display: block;
+    position: relative;
+    top: 15%;
     left: 40%;
     width: 10%;
     padding: 15px 0;
