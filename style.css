@@ -60,18 +60,13 @@ main {
 .seccionalerta {
     display: flex;
     font-size: 10px;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background-color: #C0D0FF;
     text-align: center;
-    color: black;
+    color: grey;
     font-style: italic;
-    border: 5px solid darkblue;
     width: 300px;
     flex-direction: row;
     padding: 10px 10px;
     margin: 0 10px;
-
 }
 
 .imgalerta {
