@@ -24,31 +24,35 @@
 
     <main>
 
-        <section class="principal">
+        <section class="contenedor">
 
-
-            <div class="cajaIngresoTexto">
+            <div class="cajaingreso">
 
                 <h2 class="titulomensaje">Mensaje</h2>
                 <form>
-                    <label for="mensaje"><input type="text" id="mensaje" class="ingresotexto" required placeholder="Ingrese el texto aqui"></label>
+                    <label for="mensaje"><input type="text" id="mensaje" class="texto" required
+                            placeholder="Ingrese el texto aqui"></label>
+
                 </form>
             </div>
 
-            <div class="cajaResultado">
+            <div class="cajaresultado">
                 <h2 class="tituloresultado">Resultado</h2>
-                <label for="resultado"><textarea type="text" id="resultado" class="resultado" readonly cols="20"
-                        rows="20"></textarea></label>
-
+                <label for="resultado"><textarea type="text" id="resultado" class="resultado" readonly></textarea></label>
             </div>
 
-            <section class="button">
-                <input class="encriptar" type="submit" value="Encriptar">
-                <input class="desencriptar" type="submit" value="Desencriptar">
-                <input class="copiar" type="submit" value="Copiar">
-            </section>
         </section>
 
+        <div class="seccionalerta">
+            <img class="imgalerta" src="imagenes/alert.png">
+            <p class="advertencia">En minusculas y sin acentos</p>
+        </div>
+
+        <section class="button">
+            <input class="encriptar" type="submit" value="Encriptar">
+            <input class="desencriptar" type="submit" value="Desencriptar">
+            <input class="copiar" type="submit" value="Copiar">
+        </section>
     </main>
 
     <footer>
@@ -61,3 +65,7 @@
 
 
 </html>
+
+
+
+
