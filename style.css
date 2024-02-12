@@ -1,5 +1,5 @@
 .encabezado {
-    background-color: #C0D0FF;
+    background-color: rgba(192, 208, 255, 0.5);
     text-align: center;
     width: 100%;
     padding: 40px 40px;
@@ -14,63 +14,59 @@
 
 }
 
-main {
+body {
     background: url(imagenes/encriptador.jpg);
-    height: 100vh;
+    height: 80vh;
     background-size: cover;
 }
 
 .titulomensaje,
 .tituloresultado {
     color: #FFFFFF;
-    text-wrap: wrap;
     margin: 10px 0;
 }
 
 .contenedor {
     display: flex;
     width: 100%;
+    justify-content: space-around;
+   
 }
 
 .texto,
 .resultado {
-    flex-grow: 1;
-    font-size: 20px;
-    margin: 0 0 10px;
-    width: 40%;
+    font-size: 30px;
 }
 
 .cajaingreso,
 .cajaresultado {
-    flex-grow: 1;
-    vertical-align: top;
-    margin: 0 20px;
-    width: 40%;
-
+   height: 200px;
+   width: 100%;
+   font-size: 20px;
+   margin: 0 auto;
+   font-size: 20px;
+   margin-left: 15%;
+   margin-right: 15%;
 }
 
-.cajaingreso {
-    margin-right: 5%;
-}
-
-.cajaresultado {
-    margin-left: 5%;
-}
 
 .seccionalerta {
     display: flex;
     font-size: 10px;
     text-align: center;
-    color: grey;
+    color: whitesmoke;
     font-style: italic;
     width: 300px;
     flex-direction: row;
     padding: 10px 10px;
-    margin: 0 10px;
+    margin-left: 13%;
+    margin-top: 150px;
+
 }
 
 .imgalerta {
     width: 10%;
+    height: 10%;
 }
 
 .advertencia {
@@ -79,23 +75,21 @@ main {
     font-size: small;
 }
 
-/*.button {
-    position:relative;
-    top: 30% ;
-    left: 40%;
-}*/
+.button {
+    text-align: center;
+    margin-top: 8%;
+}
 
 .encriptar,
-.desencriptar,
-.copiar {
+.desencriptar{
     text-align: center;
     display: block;
+    width: 150px; 
     position: relative;
     top: 15%;
-    left: 40%;
-    width: 10%;
+    width: 100%;
     padding: 15px 0;
-    margin: 15px;
+    margin: 20px;
     font-size: 18px;
     font-weight: bold;
     color: white;
@@ -104,9 +98,26 @@ main {
     border-radius: 5px;
     transition: 1s all;
     cursor: pointer;
-
 }
 
+.copiar {
+    text-align: center;
+    display: block;
+    width: 150px; 
+    position: relative;
+    top: 30%;
+    width: 100%;
+    padding: 15px 0;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: rgb(0, 0, 66);
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
 
 .encriptar:hover,
 .desencriptar:hover,
@@ -115,10 +126,12 @@ main {
     transform: scale(1.2);
 }
 
+
+
 footer {
     width: 100%;
     text-align: center;
-    background: #132E82;
+    background: rgb(19, 46, 130, 0.5);
     padding: 10px;
     color: #FFFFFF;
     font-size: 13px;
