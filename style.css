@@ -18,7 +18,7 @@ body {
 
 .logo {
     position: absolute;
-    top: center;
+    top: 15px;
     left: 0;
 }
 
@@ -59,8 +59,8 @@ body {
     text-align: center;
     color: whitesmoke;
     font-style: italic;
-    background: #4b48fa;
-    width: 300px;
+    background: #141275;
+    width: 350px;
     flex-direction: row;
     padding: 10px 10px;
     margin-left: 13%;
