@@ -1,16 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
 body {
     background: url(imagenes/encriptador.jpg);
-    height: 100%;
+    height: 100vh;
+    width:100vw;
     background-size: cover;
     font-family: "Raleway", sans-serif;
 }
 
+main{
+    height: 70%;
+    
+}
 
 .encabezado {
     background-color: rgba(192, 208, 255, 0.5);
     text-align: center;
     margin-top: auto;
     width: 100%;
+    height: 15%;
     padding: 40px 40px;
     font-size: 20px;
     font-weight: bold;
@@ -41,8 +53,8 @@ body {
     font-size: 30px;
 }
 
-.cajaingreso,
-.cajaresultado {
+.ingreso, .resultado {
+   resize:none;
    height: 200px;
    width: 100%;
    font-size: 20px;
@@ -135,14 +147,17 @@ body {
 
 
 footer {
+    position: absolute;
+    bottom: 0;
     width: 100%;
+    height: 15%;
     text-align: center;
     background: rgb(19, 46, 130, 0.5);
-    padding: 10px;
+    margin: 0;
     color: #FFFFFF;
     font-size: 13px;
 }
 
 .logofooter {
-    padding: 10px
+    padding: 10px;
 }
