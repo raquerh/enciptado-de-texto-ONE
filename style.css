@@ -9,17 +9,17 @@ body {
 .encabezado {
     background-color: rgba(192, 208, 255, 0.5);
     text-align: center;
+    margin-top: auto;
     width: 100%;
     padding: 40px 40px;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .logo {
     position: absolute;
-    top: 20px;
+    top: center;
     left: 0;
-
 }
 
 
@@ -59,6 +59,7 @@ body {
     text-align: center;
     color: whitesmoke;
     font-style: italic;
+    background: #4b48fa;
     width: 300px;
     flex-direction: row;
     padding: 10px 10px;
@@ -76,11 +77,13 @@ body {
     margin: 10px 10px 10px 20px;
     /* arriba derecha abajo izquierda*/
     font-size: small;
+
 }
 
 .button {
     text-align: center;
-    margin-top: 8%;
+    margin-top: 100px;
+    
 }
 
 .encriptar,
